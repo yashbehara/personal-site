@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Goudy Old Style, Serif;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 562.5%;
+  /* explanation is in our diary why we wrote 562.5% */
+  margin: 50px auto 0 auto;
+  color: #0A1760;
+  /* margin :top right bottom left */
+}
+.hclass1{
+  font-family: 'Kaushan Script', cursive;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+ a {
+  color: #0A1760;
+}
+
+h2{
+  font-size: 300.5%;
+  color: #0A1760;
+}
+
+h3{
+  font-size:35px;
+  color: #0A1760;
+}
+.image0{
+  width:10%;
+  border-radius: 50% ;
+  margin-top: 25px;
+
+}
+.image1 {
+  width:25%;
+  float:left; /* This is used when u need text to be displayed beside image */
+  margin-right: 30px;
+}
+.image2{
+  width:25%;
+  float:right; /* This is used when u need text to be displayed beside image */
+  margin-left: 30px;
+  border-radius: 50%; /* To make an image look like a circle */
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2; /* Space between two lines in text */
+
+}
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: cornflowerblue;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+hr{
+  border:dotted cornflowerblue 6px;
+  border-top:none;
+  width:5%;
+  margin:100px auto;
+}
+.button {
+	background-color:#3364b8;
+	border-radius:28px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #283966;
+  margin:25px;
+}
+.button:hover {
+	background-color:cornflowerblue;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  background-color: cornflowerblue;
+  margin-bottom: 0;
+  padding-top: 20px
+}
+.footer-link{
+  margin:20px;
+  font-size: 25px;
+  text-decoration: none;
+}
